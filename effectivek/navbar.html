@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      background-color: #333;
+      padding: 1rem;
+    }
+    .navbar ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar li {
+      margin: 0 1rem;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      color: #ccc;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 1rem;
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-content a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .dropdown-content a:hover {
+      color: #333;
+    }
+
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li class="dropdown">
+            <a href="What_Is_an_LBO_Understanding_the_Basics_of_Leverage_Buyouts_en.html">What is an LBO?</a>
+            <div class="dropdown-content">
+                <a href="What_Is_an_LBO_Understanding_the_Basics_of_Leverage_Buyouts_en.html">English</a>
+                <a href="What_Is_an_LBO_Understanding_the_Basics_of_Leverage_Buyouts_fr.html">French</a>
+                <a href="What_Is_an_LBO_Understanding_the_Basics_of_Leverage_Buyouts_ja.html">Japanese</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="Diving_into_the_World_of_LBO_Everything_You_Need_to_Know_en.html">Diving into LBO</a>
+            <div class="dropdown-content">
+                <a href="Diving_into_the_World_of_LBO_Everything_You_Need_to_Know_en.html">English</a>
+                <a href="Diving_into_the_World_of_LBO_Everything_You_Need_to_Know_fr.html">French</a>
+                <a href="Diving_into_the_World_of_LBO_Everything_You_Need_to_Know_ja.html">Japanese</a>
+            </div>
+        </li>
+
+        <li><a href="david_linkedin.html">David's LinkedIn</a></li>
+        <li><a href="effective_capital_linkedin.html">Effective Capital LinkedIn</a></li>
+    </ul>
+</nav>
+</body>
+</html>
